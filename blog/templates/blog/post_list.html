@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Multi Utility API Tool</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Dashboard</h2>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">API Creator</button>
+    <button type="button" class="btn btn-success">API Tester</button>
+    <button type="button" class="btn btn-primary">API Comparator</button>
+	<button type="button" class="btn btn-warning">API Test Suite Run</button>
+	<button type="button" class="btn btn-info">Reporter</button>
+  </div>
+</div>
+<div id ="aPICreator">
+   <div>  
+<div class="container">   
+    <form class="form-inline" action="/action_page.php">
+      <h1           /h1>	  
+	  <div class="form-group">
+       <label for="email"><h4> Name Of the API </h4></label>
+       <input type="text" class="form-control" id="text" placeholder="Enter Name of The API" name="text">
+      </div>
+       <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Action
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">GET</a></li>
+      <li><a href="#">WALK</a></li>
+      <li><a href="#">POST</a></li>
+    </ul>
+    </div>
+	<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Environment
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">QA</a></li>
+      <li><a href="#">DEV</a></li>
+      <li><a href="#">STG</a></li>
+	  <li><a href="#">PROD</a></li>
+    </ul>
+    </div>
+	</form>
+</div>
+   </div>
+ </div>
+
+</body>
+</html>
